@@ -7,7 +7,7 @@ app = FastAPI()
 
 REGION = "ap-south-1"
 TABLE_NAME = "todo-items"
-BUCKET_NAME = "vinothini-todo-bucket-721366939828-ap-south-1"
+BUCKET_NAME = "vinothini-fastapi-code-2026"
 
 # DynamoDB
 dynamodb = boto3.resource("dynamodb", region_name=REGION)
